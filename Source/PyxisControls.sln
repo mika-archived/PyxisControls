@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyxisControls", "PyxisControls\PyxisControls.csproj", "{09967F4C-74CE-4528-8CBF-C8C214F2D202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PyxisControls.Extend", "PyxisControls.Extend\PyxisControls.Extend.csproj", "{0300027B-E43C-4E31-8264-EA92BEE574C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|ARM.ActiveCfg = Debug|ARM
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|ARM.Build.0 = Debug|ARM
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|x64.ActiveCfg = Debug|x64
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|x64.Build.0 = Debug|x64
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|x86.ActiveCfg = Debug|x86
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Debug|x86.Build.0 = Debug|x86
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|ARM.ActiveCfg = Release|ARM
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|ARM.Build.0 = Release|ARM
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|x64.ActiveCfg = Release|x64
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|x64.Build.0 = Release|x64
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|x86.ActiveCfg = Release|x86
+		{09967F4C-74CE-4528-8CBF-C8C214F2D202}.Release|x86.Build.0 = Release|x86
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|ARM.Build.0 = Debug|ARM
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|x64.ActiveCfg = Debug|x64
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|x64.Build.0 = Debug|x64
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|x86.ActiveCfg = Debug|x86
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Debug|x86.Build.0 = Debug|x86
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|ARM.ActiveCfg = Release|ARM
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|ARM.Build.0 = Release|ARM
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|x64.ActiveCfg = Release|x64
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|x64.Build.0 = Release|x64
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|x86.ActiveCfg = Release|x86
+		{0300027B-E43C-4E31-8264-EA92BEE574C7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB150FB6-8FF3-403D-B5C7-E357A916B046}
+	EndGlobalSection
+EndGlobal

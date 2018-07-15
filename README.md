@@ -1,2 +1,2 @@
-# Pyxis.Controls
+# PyxisControls
 Open-Source controls of Pyxis.
