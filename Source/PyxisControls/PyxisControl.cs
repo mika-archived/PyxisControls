@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Threading.Tasks;
 
 using Windows.ApplicationModel;
@@ -56,17 +55,10 @@ namespace PyxisControls
 
         private async Task LoadPixivImageAsync(string imageUri)
         {
-            try
-            {
-                if (await _pixivCacheStorage.ExistFileAsync(imageUri))
-                    AssignToImageControl(await _pixivCacheStorage.LoadFileAsync(imageUri));
-                else
-                    AssignToImageControl(await _pixivCacheStorage.SaveFileAsync(imageUri));
-            }
-            catch (Exception e)
-            {
-                Debug.WriteLine(e);
-            }
+            if (await _pixivCacheStorage.ExistFileAsync(imageUri))
+                AssignToImageControl(await _pixivCacheStorage.LoadFileAsync(imageUri));
+            else
+                AssignToImageControl(await _pixivCacheStorage.SaveFileAsync(imageUri));
         }
 
         protected static BitmapImage CreateImageSource(string uri)
