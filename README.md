@@ -27,7 +27,7 @@ Display pixiv image as [Image Control](https://docs.microsoft.com/en-us/uwp/api/
                              SelectionMode="Single">
     <msControls:AdaptiveGridView.ItemTemplate>
         <DataTemplate d:DataContext="{d:DesignInstance cvm:IllustViewModel}">
-            <controlsEx:PixivImageEx Source="{Binding ThumbnailUrl, Mode=OneWay}"
+            <controls:PixivImage Source="{Binding ThumbnailUrl, Mode=OneWay}"
                                      Stretch="UniformToFill" />
         </DataTemplate>
     </msControls:AdaptiveGridView.ItemTemplate>
