@@ -86,7 +86,7 @@ Display pixiv image as [PersonPicture Control](https://docs.microsoft.com/en-us/
 
 ## PyxisControls.Extend.ImageEx
 
-Pixiv supports of ImageEx in Windows Community Toolkit.
+Display pixiv image as [ImageEx Control in Windows Community Toolkit](https://docs.microsoft.com/en-us/windows/uwpcommunitytoolkit/controls/imageex).
 
 
 ### Syntax
